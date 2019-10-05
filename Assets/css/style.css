@@ -15,7 +15,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #777777;
-  background: #efeee7;
+  background: #ffffff;
 }
 .nav-name {
   width: 250px;
@@ -27,6 +27,10 @@ nav {
   display: block;
   position: fixed;
   top: 0;
+}
+
+nav a {
+  float: right;
 }
 
 header {
@@ -84,4 +88,16 @@ li {
 li a:hover {
   background-color: #17ca4d;
   color: white;   
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
