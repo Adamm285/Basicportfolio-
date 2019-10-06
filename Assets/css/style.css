@@ -43,6 +43,7 @@
   padding: 3%;
   border: 2px solid #dddddd;
   overflow: hidden;
+  position: relative;
 }
 
 .contentTopper {
@@ -56,11 +57,12 @@
   width: 200px;
   height: 200px;
   margin-left: 0%;
+  float: left;  
 }
 
 p {
   color: grey;
-
+  float: left;
 }
 #title {
   color: #4aaaa5;
@@ -115,8 +117,11 @@ footer {
   height: 50px;
   color: lightgray;
   text-align: center;
-  margin-bottom: 0;
   padding: 0;
+  width: 100%;
+  margin-bottom: 0px;
+ 
+
 }
 
 li a:hover {
@@ -146,3 +151,11 @@ input:focus, textarea:focus, button:focus {
   margin: 50px;
 
 }
+input {
+  width: 100%;
+}
+textarea {
+   width: 100%;
+
+ }
+ 
