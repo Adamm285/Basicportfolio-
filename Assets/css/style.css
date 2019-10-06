@@ -5,13 +5,46 @@
   position: relative;
   top: 0;
   margin-left: 0%;
+  padding: 0%;
   Height: 15%;
+  width: 100%;
   color: gray;
   background-color: white;
   overflow: hidden;
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #dddddd; 
+}
+
+#heading_name {
+  background-color: #4aaaa5;
+  color: white;
+  text-align: left;
+  margin-left: 10%;
+  height: -27%;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 4%;
+}
+
+.ulnav {
+  list-style-type: none;
+  margin-top: -27px;
+  margin-right: 10%;
+  padding: 0;
+  overflow: hidden;
+  float: right;
   
 }
+
+.container {
+  width: 960px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin: auto;
+  background-color: white;
+  padding: 3%;
+  border: 2px solid #dddddd;
+}
+
 .contentTopper {
   margin: 0px 0px 0px 20px; 
   height: 40px; 
@@ -20,22 +53,7 @@
   border-bottom: 2px solid #dddddd;
 }
 
-#heading_name {
-  background-color: #4aaaa5;
-  color: white;
-  text-align: left;
-  margin-left: 0%;
-  font-size: 2em;
-  font-weight: bold;
-  padding: 4%;
-}
-.container {
-  width: 960px;
-  margin-left: 0%;
-  background-color: white;
-  padding: 2%;
-  border: 2px solid #dddddd;
-}
+
 
 p {
   color: grey;
@@ -48,14 +66,7 @@ body {
   margin: 0px;
   background-image: url("../images/beanstalk.png");
 }
-.ulnav {
-  list-style-type: none;
-  margin-top: -15px;
-  padding: 0;
-  overflow: hidden;
-  float: right;
-  
-}
+
 :placeholder-shown {
   color: #777777;
 }
@@ -108,5 +119,13 @@ li a:hover {
   color:#777777;   
 }
 form {
-  color: black
+  color: black;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+}
+input:focus, textarea:focus, button:focus {
+  box-shadow: 0 0 4px rgba(0,128,128,0.3);
+  border: 10px solid rgba(0,128,128);
 }
