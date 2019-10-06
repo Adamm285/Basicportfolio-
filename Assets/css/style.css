@@ -28,11 +28,10 @@
 .ulnav {
   list-style-type: none;
   margin-top: -27px;
-  margin-right: 10%;
+  margin-right: 5%;
   padding: 0;
   overflow: hidden;
-  float: right;
-  
+  text-align: right;
 }
 
 .container {
@@ -43,6 +42,7 @@
   background-color: white;
   padding: 3%;
   border: 2px solid #dddddd;
+  overflow: hidden;
 }
 
 .contentTopper {
@@ -51,6 +51,11 @@
   padding: 0px 0px 20px 0px;
   width: 960px; 
   border-bottom: 2px solid #dddddd;
+}
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-left: 0%;
 }
 
 p {
@@ -71,7 +76,6 @@ body {
 
 
 li, a {
-  display: block;
   color: gray;
   text-align: center;
   padding: 5px 5px;
@@ -82,20 +86,26 @@ li, a {
 h1 {
   color: #4aaaa5; 
 }
-#bio-image {
-  float: "left";
-}
+
 img {
   width: 200px;
   height: 200px;
+  z-index: 1;
+  position: relative;
+  margin-left: 10%;
 
 }
+
 h2 {
-  width: 200px;
+  width: 250px;
   color: white;
   background-color: #4aaaa5; 
   text-align: center;
-  display: inline-block;
+  position: relative;
+  height: 40px;
+  margin-left: 10%;
+  margin-top: -70px;
+  z-index: 2;
   
 }
 
@@ -105,6 +115,8 @@ footer {
   height: 50px;
   color: lightgray;
   text-align: center;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 li a:hover {
@@ -124,4 +136,13 @@ button:hover {
 input:focus, textarea:focus, button:focus {
   box-shadow: 0 0 4px rgba(0,128,128,0.3);
   border: 10px solid rgba(0,128,128);
+}
+
+.table .names {
+  list-style: none;
+  float: left;
+  width: 30%;
+  height: 300px;
+  margin: 50px;
+
 }
