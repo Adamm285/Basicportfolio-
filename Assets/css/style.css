@@ -53,8 +53,6 @@
   border-bottom: 2px solid #dddddd;
 }
 
-
-
 p {
   color: grey;
 
@@ -70,9 +68,7 @@ body {
 :placeholder-shown {
   color: #777777;
 }
-span {
-  color: #777777;
-}
+
 
 li, a {
   display: block;
@@ -83,9 +79,6 @@ li, a {
   display: inline-block;
 }
 
-.active {
-  background-color: #4CAF50;
-}
 h1 {
   color: #4aaaa5; 
 }
@@ -95,34 +88,37 @@ h1 {
 img {
   width: 200px;
   height: 200px;
+
 }
 h2 {
   width: 200px;
   color: white;
   background-color: #4aaaa5; 
   text-align: center;
+  display: inline-block;
+  
 }
 
 footer {
-  background-color: black;
-  border-top: 2px solid #4aaaa5;
+  background-color: rgb(128, 128, 128);
+  border-top: 5px solid #4aaaa5;
   height: 50px;
-  color: gray;
+  color: lightgray;
   text-align: center;
 }
-.table {
-  width: 100%;
-  
-}
+
 li a:hover {
   background-color: #17ca4d;
   color:#777777;   
 }
-form {
-  color: black;
-}
+
 button {
   background-color: #4CAF50;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(151, 189, 152);
   color: white;
 }
 input:focus, textarea:focus, button:focus {
