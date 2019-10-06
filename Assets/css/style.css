@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: "georgia" sans-serif;
 }
 #nav-bar {
   position: relative;
@@ -56,7 +56,12 @@ body {
   float: right;
   
 }
-
+:placeholder-shown {
+  color: #777777;
+}
+span {
+  color: #777777;
+}
 
 li, a {
   display: block;
@@ -101,4 +106,7 @@ footer {
 li a:hover {
   background-color: #17ca4d;
   color:#777777;   
+}
+form {
+  color: black
 }
