@@ -48,7 +48,7 @@
 }
 
 .contentTopper {
-  margin: 0px 0px 0px 20px; 
+  margin: 0px 0px 0px 0px; 
   height: 40px; 
   padding: 0px 0px 20px 0px;
   width: 960px; 
@@ -95,7 +95,6 @@ img {
   height: 250px;
   z-index: 1;
   position: relative;
- 
 }
 
 h2 {
@@ -108,20 +107,20 @@ h2 {
   margin-left: 0%;
   margin-top: -55px;
   z-index: 2;
-  
 }
 
 footer {
+  left: 0;  
   background-color: rgb(128, 128, 128);
   border-top: 5px solid #4aaaa5;
   height: 50px;
   color: lightgray;
   text-align: center;
   padding: 0;
+  line-height: 50px;
   width: 100%;
   margin-bottom: 0px;
- 
-
+  position: absolute;
 }
 
 li a:hover {
@@ -146,17 +145,14 @@ input:focus, textarea:focus, button:focus {
 .names {
   list-style: none;
   float: left;
-  
   height: 300px;
   margin: 0 7% 0 10%;
-  
 }
 input {
   width: 100%;
 }
 textarea {
-   width: 100%;
-   resize: none;
-
- }
+  width: 100%;
+  resize: none;
+}
  
