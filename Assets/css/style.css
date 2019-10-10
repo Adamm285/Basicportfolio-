@@ -1,6 +1,7 @@
 * {
-  font-family: "georgia" sans-serif;
+  font-family: "'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif'";
 }
+
 .nav-bar {
   position: fixed;
   top: 0;
@@ -11,8 +12,9 @@
   color: gray;
   background-color: white;
   overflow: hidden;
-  border-bottom: 2px solid #dddddd; 
+  border-bottom: 2px solid #dddddd;
   z-index: 3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .heading_name {
@@ -48,26 +50,29 @@
 }
 
 .contentTopper {
-  margin: 0px 0px 0px 0px; 
-  height: 40px; 
+  margin: 0px 0px 0px 0px;
+  height: 40px;
   padding: 0px 0px 20px 0px;
-  width: 960px; 
+  width: 960px;
   border-bottom: 2px solid #dddddd;
 }
+
 #bio-image {
   width: 200px;
   height: 200px;
   margin-left: 0%;
-  float: left;  
+  float: left;
 }
 
 p {
   color: grey;
   float: left;
 }
+
 #title {
   color: #4aaaa5;
 }
+
 body {
   margin: 0px;
   background-image: url("../images/beanstalk.png");
@@ -78,7 +83,8 @@ body {
 }
 
 
-li, a {
+li,
+a {
   color: gray;
   text-align: center;
   padding: 5px 5px;
@@ -87,7 +93,7 @@ li, a {
 }
 
 h1 {
-  color: #4aaaa5; 
+  color: #4aaaa5;
 }
 
 img {
@@ -100,7 +106,7 @@ img {
 h2 {
   width: 250px;
   color: white;
-  background-color: #4aaaa5; 
+  background-color: #4aaaa5;
   text-align: center;
   position: relative;
   height: 40px;
@@ -110,7 +116,7 @@ h2 {
 }
 
 footer {
-  left: 0;  
+  left: 0;
   background-color: rgb(128, 128, 128);
   border-top: 5px solid #4aaaa5;
   height: 50px;
@@ -125,12 +131,12 @@ footer {
 }
 
 li a:hover {
-  background-color: #17ca4d;
-  color:#777777;   
+  background-color:  #4aaaa5;
+  color: white;
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #4aaaa5;
   color: white;
 }
 
@@ -138,9 +144,12 @@ button:hover {
   background-color: rgb(151, 189, 152);
   color: white;
 }
-input:focus, textarea:focus, button:focus {
-  box-shadow: 0 0 4px rgba(0,128,128,0.3);
-  border: 10px solid rgba(0,128,128);
+
+input:focus,
+textarea:focus,
+button:focus {
+  box-shadow: 0 0 4px rgba(0, 128, 128, 0.3);
+  border: 10px solid rgba(0, 128, 128);
 }
 
 .names {
@@ -149,11 +158,12 @@ input:focus, textarea:focus, button:focus {
   height: 300px;
   margin: 0 7% 0 10%;
 }
+
 input {
   width: 100%;
 }
+
 textarea {
   width: 100%;
   resize: none;
 }
- 
